@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanishka | Data Science & AI Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for modern typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo">
+                <span class="logo-bracket">&lt;</span>Tanishka<span class="logo-dot">.</span><span class="logo-bracket">/&gt;</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#strengths" class="nav-link">Strengths</a>
+                <a href="#contact" class="nav-btn">Get In Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-pill">
+                        <span class="pulse-indicator"></span>
+                        <span>Open to Opportunities & Internships</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Tanishka</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        Data Science & AI Enthusiast
+                    </h2>
+                    <p class="hero-description">
+                        Passionate about unraveling patterns in data and building intelligent systems. 
+                        Equipped with core foundations in <strong>Python</strong> and <strong>SQL</strong>, paired with 
+                        strong <strong>team leadership</strong> and a keen instinct for <strong>logical problem solving</strong>.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore Projects</span>
+                            <svg class="icon-arrow" viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                    </div>
+
+                    <!-- Highlight Badges -->
+                    <div class="hero-badges">
+                        <div class="badge-item">
+                            <span class="badge-icon">🐍</span>
+                            <span class="badge-text">Python Basics</span>
+                        </div>
+                        <div class="badge-item">
+                            <span class="badge-icon">🗄️</span>
+                            <span class="badge-text">SQL Querying</span>
+                        </div>
+                        <div class="badge-item">
+                            <span class="badge-icon">🤖</span>
+                            <span class="badge-text">Data Science & AI</span>
+                        </div>
+                        <div class="badge-item">
+                            <span class="badge-icon">💡</span>
+                            <span class="badge-text">Logic & Strategy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Decorative Data Visualization Card -->
+                <div class="hero-visual">
+                    <div class="visual-card">
+                        <div class="card-header-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="card-header-title">analytics_profile.py</span>
+                        </div>
+                        <div class="code-preview">
+                            <p><span class="code-keyword">class</span> <span class="code-class">DataScientist</span>:</p>
+                            <p class="indent-1"><span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):</p>
+                            <p class="indent-2">self.name = <span class="code-string">"Tanishka"</span></p>
+                            <p class="indent-2">self.domain = <span class="code-string">"Data Science & AI"</span></p>
+                            <p class="indent-2">self.languages = [<span class="code-string">"Python"</span>, <span class="code-string">"SQL"</span>]</p>
+                            <p class="indent-2">self.mindset = <span class="code-string">"Analytical & Logical"</span></p>
+                            <p class="indent-2">self.superpower = <span class="code-string">"Team Leadership"</span></p>
+                            <br>
+                            <p class="indent-1"><span class="code-keyword">def</span> <span class="code-func">solve_problem</span>(self, complex_challenge):</p>
+                            <p class="indent-2"><span class="code-comment"># Breaking down data & logic</span></p>
+                            <p class="indent-2"><span class="code-keyword">return</span> <span class="code-string">"Actionable Insight & Impact"</span></p>
+                        </div>
+                        <div class="data-stream-stats">
+                            <div class="stream-stat">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Problem Dedication</span>
+                            </div>
+                            <div class="stream-stat">
+                                <span class="stat-number">Foundational</span>
+                                <span class="stat-label">Python & SQL Stack</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Profile Overview</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card main-about">
+                        <div class="card-badge">My Journey</div>
+                        <h3>Passionate about Data, Logic & Human Collaboration</h3>
+                        <p>
+                            I am an emerging specialist venturing into the exciting domains of 
+                            <strong>Data Science and Artificial Intelligence</strong>. I thrive at the intersection 
+                            where structured quantitative thinking meets creative problem solving.
+                        </p>
+                        <p>
+                            While developing my foundational toolkit with <strong>Python</strong> for scripting and 
+                            data handling, and <strong>SQL</strong> for extracting intelligence from structured databases, 
+                            I place equal value on how insights are shared. Technology creates true impact only when 
+                            paired with <strong>clear communication</strong> and <strong>collaborative leadership</strong>.
+                        </p>
+                        <p>
+                            Whether tackling algorithmic puzzles, exploring datasets, or aligning a team towards a 
+                            shared goal, I approach every challenge with curiosity, analytical precision, and resilience.
+                        </p>
+                    </div>
+
+                    <div class="about-card highlights-card">
+                        <div class="card-badge">Core Pillars</div>
+                        <div class="pillar-list">
+                            <div class="pillar-item">
+                                <div class="pillar-icon">🎯</div>
+                                <div class="pillar-info">
+                                    <h4>Logical Thinker</h4>
+                                    <p>Methodical approach to dissecting complex issues into structured, solvable steps.</p>
+                                </div>
+                            </div>
+                            <div class="pillar-item">
+                                <div class="pillar-icon">🗣️</div>
+                                <div class="pillar-info">
+                                    <h4>Effective Communicator</h4>
+                                    <p>Translating analytical findings and technical ideas into clear, digestible narratives.</p>
+                                </div>
+                            </div>
+                            <div class="pillar-item">
+                                <div class="pillar-icon">👥</div>
+                                <div class="pillar-info">
+                                    <h4>Team Leadership</h4>
+                                    <p>Fostering cooperative environments, driving accountability, and inspiring teammates.</p>
+                                </div>
+                            </div>
+                            <div class="pillar-item">
+                                <div class="pillar-icon">🚀</div>
+                                <div class="pillar-info">
+                                    <h4>Continuous Growth</h4>
+                                    <p>Relentless curiosity to master emerging AI algorithms, modern data tools, and architectures.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Capabilities</span>
+                    <h2 class="section-title">Technical & Professional Skills</h2>
+                    <p class="section-subtitle">A balanced fusion of analytical technical abilities and vital interpersonal strengths.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Technical Skills Column -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon-box tech-icon">
+                                <span>⚡</span>
+                            </div>
+                            <div>
+                                <h3 class="category-title">Technical Competencies</h3>
+                                <p class="category-desc">Foundational data handling and querying</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-bars-container">
+                            <!-- Python -->
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span class="skill-name">Python Programming</span>
+                                    <span class="skill-level-tag">Fundamental</span>
+                                </div>
+                                <p class="skill-detail-text">Data structures, conditionals, loops, functions, basic data manipulation & scripting.</p>
+                                <div class="skill-progress-bar">
+                                    <div class="progress-fill fill-python"></div>
+                                </div>
+                            </div>
+
+                            <!-- SQL -->
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span class="skill-name">SQL & Databases</span>
+                                    <span class="skill-level-tag">Fundamental</span>
+                                </div>
+                                <p class="skill-detail-text">Relational database concepts, SELECT queries, JOIN operations, grouping, filtering & aggregations.</p>
+                                <div class="skill-progress-bar">
+                                    <div class="progress-fill fill-sql"></div>
+                                </div>
+                            </div>
+
+                            <!-- Data Science & AI -->
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span class="skill-name">Data Science & AI Concepts</span>
+                                    <span class="skill-level-tag">Enthusiast / Learner</span>
+                                </div>
+                                <p class="skill-detail-text">Exploratory Data Analysis (EDA), statistics basics, machine learning principles, data cleaning workflows.</p>
+                                <div class="skill-progress-bar">
+                                    <div class="progress-fill fill-ai"></div>
+                                </div>
+                            </div>
+
+                            <!-- Tools & Environment -->
+                            <div class="skill-item">
+                                <div class="skill-meta">
+                                    <span class="skill-name">Developer Tools & Environments</span>
+                                    <span class="skill-level-tag">Familiar</span>
+                                </div>
+                                <p class="skill-detail-text">Jupyter Notebooks, VS Code, Git fundamentals, basic command line navigation.</p>
+                                <div class="skill-progress-bar">
+                                    <div class="progress-fill fill-tools"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Non-Technical & Leadership Skills Column -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <div class="category-icon-box soft-icon">
+                                <span>🌟</span>
+                            </div>
+                            <div>
+                                <h3 class="category-title">Non-Technical & Human Skills</h3>
+                                <p class="category-desc">Leadership, collaboration, and logical thinking</p>
+                            </div>
+                        </div>
+
+                        <div class="soft-skills-showcase">
+                            <!-- Soft Skill 1: Communication -->
+                            <div class="soft-card">
+                                <div class="soft-card-icon">💬</div>
+                                <div class="soft-card-content">
+                                    <h4>Good Communication Skills</h4>
+                                    <p>
+                                        Skilled in clearly explaining complex ideas, listening actively, 
+                                        and facilitating cross-functional understanding between technical details and overall objectives.
+                                    </p>
+                                    <div class="tag-row">
+                                        <span class="mini-tag">Active Listening</span>
+                                        <span class="mini-tag">Data Presentation</span>
+                                        <span class="mini-tag">Clarity</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Soft Skill 2: Team Leadership -->
+                            <div class="soft-card">
+                                <div class="soft-card-icon">👑</div>
+                                <div class="soft-card-content">
+                                    <h4>Team Leadership</h4>
+                                    <p>
+                                        Natural initiative to organize team workflows, support peers, 
+                                        delegate responsibilities mindfully, and maintain motivation under challenging timelines.
+                                    </p>
+                                    <div class="tag-row">
+                                        <span class="mini-tag">Coordination</span>
+                                        <span class="mini-tag">Empowerment</span>
+                                        <span class="mini-tag">Goal Alignment</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Soft Skill 3: Logical Problem Solving -->
+                            <div class="soft-card">
+                                <div class="soft-card-icon">🧩</div>
+                                <div class="soft-card-content">
+                                    <h4>Keen Logical Problem Solving</h4>
+                                    <p>
+                                        A deep passion for dissecting puzzles, building algorithmic steps, 
+                                        and testing hypotheses systematically to reach robust conclusions.
+                                    </p>
+                                    <div class="tag-row">
+                                        <span class="mini-tag">Root Cause Analysis</span>
+                                        <span class="mini-tag">Pattern Recognition</span>
+                                        <span class="mini-tag">Structured Logic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Portfolio Work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Applying Python, SQL, and analytical logic to practical data challenges.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Python EDA -->
+                    <article class="project-card">
+                        <div class="project-badge">Python & Analytics</div>
+                        <h3 class="project-title">Exploratory Data Analysis (EDA) Pipeline</h3>
+                        <p class="project-desc">
+                            A Python-based data cleaning and exploration project that inspects raw datasets, 
+                            identifies missing values, computes descriptive statistics, and isolates meaningful trends.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">✓ Data wrangling & handling anomalies</div>
+                            <div class="highlight-item">✓ Descriptive metrics and distribution trends</div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Cleaning</span>
+                            <span class="tech-tag">Statistical Analysis</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: SQL Insights -->
+                    <article class="project-card">
+                        <div class="project-badge">Database & SQL</div>
+                        <h3 class="project-title">Relational Database & Query Insights</h3>
+                        <p class="project-desc">
+                            Designed relational schemas and crafted multi-table SQL queries with joins and 
+                            aggregations to extract business-critical metrics such as sales growth and customer cohorts.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">✓ Multi-table JOINs, GROUP BY & aggregations</div>
+                            <div class="highlight-item">✓ Query logic for performance insights</div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Relational Modeling</span>
+                            <span class="tech-tag">Data Extraction</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: AI / ML Exploration -->
+                    <article class="project-card">
+                        <div class="project-badge">AI Exploration</div>
+                        <h3 class="project-title">Introductory AI Classification Model</h3>
+                        <p class="project-desc">
+                            An exploratory machine learning project implementing a baseline classification model 
+                            to evaluate prediction accuracy, precision, and the foundations of automated decision making.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">✓ Supervised learning fundamentals</div>
+                            <div class="highlight-item">✓ Model evaluation & performance metrics</div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">AI Fundamentals</span>
+                            <span class="tech-tag">Model Evaluation</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Logical Algorithm -->
+                    <article class="project-card">
+                        <div class="project-badge">Logic & Algorithms</div>
+                        <h3 class="project-title">Logical Puzzle & Algorithmic Solver</h3>
+                        <p class="project-desc">
+                            A dedicated Python project centered around solving constraint-satisfaction problems 
+                            and logical decision trees, emphasizing algorithmic efficiency and clean logic flow.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">✓ Constraint checking & recursive logic</div>
+                            <div class="highlight-item">✓ Structured problem breakdown</div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Algorithm Design</span>
+                            <span class="tech-tag">Problem Solving</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Strengths & Non-Tech Focus Section -->
+        <section id="strengths" class="strengths-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Core Strengths</span>
+                    <h2 class="section-title">What Makes Me Stand Out</h2>
+                    <p class="section-subtitle">Bridging the gap between code and collaboration.</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="strengths-grid">
+                    <div class="strength-card">
+                        <div class="strength-icon-wrapper">
+                            <span class="strength-emoji">💡</span>
+                        </div>
+                        <h3>Passionate Logical Mind</h3>
+                        <p>
+                            I don't just write scripts; I genuinely enjoy the process of untangling puzzles. 
+                            Logical challenges inspire me to think deeply, test assumptions, and find elegant solutions.
+                        </p>
+                    </div>
+
+                    <div class="strength-card">
+                        <div class="strength-icon-wrapper">
+                            <span class="strength-emoji">🤝</span>
+                        </div>
+                        <h3>Articulate Communicator</h3>
+                        <p>
+                            Data is only as valuable as the decisions it guides. I make it a priority to convey 
+                            insights transparently and actively listen to team members and stakeholders.
+                        </p>
+                    </div>
+
+                    <div class="strength-card">
+                        <div class="strength-icon-wrapper">
+                            <span class="strength-emoji">🚀</span>
+                        </div>
+                        <h3>Empathetic Leadership</h3>
+                        <p>
+                            Great teams achieve great outcomes. I take pride in organizing group deliverables, 
+                            maintaining positive morale, and encouraging collective problem-solving.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Let's Connect</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Have an internship, project, or opportunity? I would love to hear from you!</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-layout">
+                    <!-- Contact Information Card -->
+                    <div class="contact-info-card">
+                        <h3>Let's build something insightful together</h3>
+                        <p>
+                            I'm currently seeking entry-level, internship, or collaborative roles in 
+                            <strong>Data Science, AI, and Data Analytics</strong>. Reach out directly or send a message!
+                        </p>
+
+                        <div class="contact-methods">
+                            <div class="method-item">
+                                <div class="method-icon">📍</div>
+                                <div class="method-details">
+                                    <span class="method-label">Role Focus</span>
+                                    <span class="method-value">Data Science, AI & Analytics</span>
+                                </div>
+                            </div>
+                            <div class="method-item">
+                                <div class="method-icon">✉️</div>
+                                <div class="method-details">
+                                    <span class="method-label">Email</span>
+                                    <span class="method-value">tanishka@example.com</span>
+                                </div>
+                            </div>
+                            <div class="method-item">
+                                <div class="method-icon">💼</div>
+                                <div class="method-details">
+                                    <span class="method-label">Profiles</span>
+                                    <span class="method-value">LinkedIn & GitHub Ready</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links-row">
+                            <a href="#contact" class="social-btn">LinkedIn Profile</a>
+                            <a href="#contact" class="social-btn">GitHub Profile</a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form (HTML & CSS Only) -->
+                    <div class="contact-form-card">
+                        <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you for reaching out! This is a demo form.');">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" id="name" name="name" class="form-input" placeholder="e.g. Alex Johnson" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" id="email" name="email" class="form-input" placeholder="name@company.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-input" placeholder="Internship Opportunity / Project Collaboration" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Your Message</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Hello Tanishka, I would like to discuss..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">
+                                <span>Send Message</span>
+                                <svg class="icon-arrow" viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+                                    <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <span class="logo-bracket">&lt;</span><strong>Tanishka</strong><span class="logo-bracket">/&gt;</span>
+                <p>Data Science & AI Portfolio &bull; Crafted with pure HTML & CSS</p>
+            </div>
+            <div class="footer-right">
+                <a href="#hero" class="back-to-top">
+                    <span>Back to Top</span>
+                    <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                        <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
