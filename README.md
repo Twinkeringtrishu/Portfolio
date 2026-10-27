@@ -56,3 +56,4 @@ Portfolio/
 - **Update Email & Links**: Search for `tanishka@example.com` or `#contact` in [index.html](file:///Users/tanishka/Portfolio/index.html) and replace them with your actual email, LinkedIn, and GitHub profile URLs.
 - **Add Your Own Projects**: Customize the project titles, descriptions, and tags in the `<section id="projects">` section of [index.html](file:///Users/tanishka/Portfolio/index.html).
 
+# Portfolio
